@@ -1,0 +1,44 @@
+port1
+C:\Users\side>ping -l 65500 192.168.3.157
+
+Pinging 192.168.3.157 with 65500 bytes of data:
+Reply from 192.168.3.157: bytes=65500 time=316ms TTL=6
+Reply from 192.168.3.157: bytes=65500 time=316ms TTL=6
+Reply from 192.168.3.157: bytes=65500 time=316ms TTL=6
+Reply from 192.168.3.157: bytes=65500 time=316ms TTL=6
+
+Ping statistics for 192.168.3.157:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss
+Approximate round trip times in milli-seconds:
+    Minimum = 316ms, Maximum = 316ms, Average = 316ms
+
+
+
+port2
+C:\Users\side>ping -l 65500 192.168.2.157
+
+Pinging 192.168.2.157 with 65500 bytes of data:
+Reply from 192.168.2.157: bytes=65500 time=2692ms TTL=63
+Reply from 192.168.2.157: bytes=65500 time=2692ms TTL=63
+Reply from 192.168.2.157: bytes=65500 time=2692ms TTL=63
+Reply from 192.168.2.157: bytes=65500 time=2692ms TTL=63
+
+Ping statistics for 192.168.2.157:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2692ms, Maximum = 2692ms, Average = 2692ms
+
+
+port3
+C:\Users\side>ping -l 65500 192.168.1.157
+
+Pinging 192.168.1.157 with 65500 bytes of data:
+Reply from 192.168.1.157: bytes=65500 time=14ms TTL
+Reply from 192.168.1.157: bytes=65500 time=14ms TTL
+Reply from 192.168.1.157: bytes=65500 time=14ms TTL
+Reply from 192.168.1.157: bytes=65500 time=14ms TTL
+
+Ping statistics for 192.168.1.157:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% l
+Approximate round trip times in milli-seconds:
+    Minimum = 14ms, Maximum = 14ms, Average = 14ms
