@@ -61,7 +61,13 @@
 <td>640x480</td>
 <td>30</td>
 <td>93220 kb/s</td>
-<td>LISA SIIA VGA ARVUTUSED!</td>
+<td>
+<pre>
+640 * 480 = 307 200 piksel/kaader
+307 200 * 12 = 3 686 400 bit/kaader
+3 686 400 * 30 = 110 592 000 bit/s
+</pre>
+</td>
 </tr>
 <tr>
 <td colspan="6"><img src="pics/vga.png" alt="LISA SIIA VGA EKRAANIPILT!"></td>
@@ -83,7 +89,13 @@
 <td>352x288</td>
 <td>30</td>
 <td>30899 kb/s</td>
-<td>LISA SIIA CIF ARVUTUSED!</td>
+<td>
+<pre>
+352 * 288 = 101 376 piksel/kaader
+101 376 * 12 = 1 216 512 bit/kaader
+1 216 512 * 30 = 36 495 360 bit/s
+</pre>
+</td>
 </tr>
 <tr>
 <td colspan="6"><img src="pics/cif.png" alt="LISA SIIA CIF EKRAANIPILT!"></td>
@@ -105,7 +117,13 @@
 <td>176x144</td>
 <td>30</td>
 <td>8638 kb/s</td>
-<td>LISA SIIA QCIF ARVUTUSED!</td>
+<td>
+<pre>
+176 * 144 = 25 344 piksel/kaader
+25 344 * 12 = 304 128 bit/kaader
+304 128 * 30 = 9 123 840 bit/s
+</pre>
+</td>
 </tr>
 <tr>
 <td colspan="6"><img src="pics/qcif.png" alt="LISA SIIA QCIF EKRAANIPILT!"></td>
@@ -119,7 +137,7 @@ TEL1 telefoninumber: 47<br>
 TEL2 telefoninumber: 42<br>
 <p>
 
-LISA SIIA LABORI VÕRGU SKEEM!
+<img src="pics/labori_skeem.jpg" alt="LISA SIIA LABORI SKEEM!">
 </p><h3>3. Kaja test</h3>
 
 <table border="1" cellpadding="4" cellspacing="0">
@@ -132,13 +150,13 @@ LISA SIIA LABORI VÕRGU SKEEM!
 </tbody></table>
 <p>
 <b>Järeldused katsetulemuste kohta:</b><br>
-KIRJUTA JÄRELDUSED KATSETULEMUSTE KOHTA SIIA!
+X-Lite'iga tehtud kajatest andis parima tulemusena. Paremuselt järgnes sellele Grandstream (TEL2), mis oli ühendatud kommutaatori porti tähistusega 1 ja kõige viletsam oli Grandstream (TEL1), mis oli ühendatud porti tähistusega 2.
 </p><h3>4. Koodekite uurimine </h3>
 <small>Küsimus: 1. Mis on nende kahe helistamise korral erinevat?<br>Vastus:</small>
-teelfonist arvuti helistamisel puudub video
+Telefonist arvutisse helistamisel puudub video
 <p>
 <small>Küsimus: 2. Mis on võimalike erinevuste põhjuseks?<br>Vastus:</small>
-kodeekide erinevus(telefonil h.264)
+Kodeekide erinevus(telefonil h.264). Videokõne jaoks peaks mõlemas otsas olema sama kodek.	
 </p><h3>5.1 Sidekanali viite kontroll</h3>
 <table border="1" cellpadding="4" cellspacing="0">
 <tbody><tr>
@@ -168,8 +186,7 @@ kodeekide erinevus(telefonil h.264)
 </tbody></table>
 <p>
 <b>Järeldused katsetulemuste kohta:</b><br>
-KIRJUTA JÄRELDUSED KATSETULEMUSTE KOHTA SIIA!
-
+Piiramata võrguga pordis on pingi aeg kõige väiksem ja paketi pikkuse muutmine ei mõjutanud olulisel määral pingi aega. Pordis nr. 1 on ping umbes 300 ms sõltumata paketi pikkusest. Pordil nr. 2 on kiirusepiirang ja suurem paketi pikkus annab oluliselt suurema pingi aja.
 </p><h3>6. Katsed audiokõnega ja videokõnega.</h3>
 <table border="1" cellpadding="4" cellspacing="0">
 <tbody><tr><td colspan="2"> 1) 
@@ -188,7 +205,7 @@ Kõne (pilt ja heli) kvaliteedi subjektiivne hinnang, kui Grandstream on ühenda
 </tbody></table>
 <p>
 <b>Järeldused katsetulemuste kohta:</b><br>
-KIRJUTA JÄRELDUSED KATSETULEMUSTE KOHTA SIIA!
+Porti nr. 2 ühendatud Grandstreami korral on ajanihe väga suur, kuna pordi kiirus on piiratud. Porti nr. 1 ühendatud Grandstreamiga on kõne kvaliteet hea, puudub märkimisväärne ajanihe.
 
 
 </p><h2>7. Individuaalülesande lahendus</h2>
