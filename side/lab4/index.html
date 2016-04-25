@@ -89,7 +89,23 @@ L4:A2_5</td>
 <td colspan="7"><img src="pics/wifi_5.jpg" alt="LISA SIIA KATSE 2 SPEKTRIPILT!"></td></tr>
 </tbody></table>
 <h3>Edastuskiiruse arvutused mõlemas WLAN võrgus.</h3>
-LISA SIIA EDASTUSKIIRUSTE ARVUTUSED MÕLEMA VÕRGU KOHTA!
+<p>
+2.4 GHz:<br>
+R = W log<sub>2</sub> (1+S/N)<br>
+W = 20 MHz<br>
+69-40 = 29 dB<br>
+29 dB = 10 log<sub>10</sub> X => 2,9 dB = log<sub>10</sub> X<br>
+X = 10<sup>2,9</sup> = 794,32<br>
+R = 20 * log<sub>2</sub> (1+794,32) = 192 Mbit/s<br><br>
+
+5 GHz:<br>
+R = W log<sub>2</sub> (1+S/N)<br>
+W = 40 MHz<br>
+69-53 = 16 dB<br>
+16 dB = 10 log<sub>10</sub> X => 1,6 dB = log<sub>10</sub> X<br>
+X = 10<sup>1,6</sup> = 39,81<br>
+R = 40 * log<sub>2</sub> (1+39,81) = 214 Mbit/s<br>
+</p>
 <h2>3. WLAN võrgu uurimine</h2>
 <h3>Netsh</h3>
 <table border="1" cellpadding="4" cellspacing="0">
