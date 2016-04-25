@@ -211,15 +211,59 @@ Porti nr. 2 ühendatud Grandstreami korral on ajanihe väga suur, kuna pordi kii
 </p><h2>7. Individuaalülesande lahendus</h2>
 
 <p>
-KIRJUTA INDIVIDUAALÜLESANDE LAHENDUS SIIA!
-</p><p>
+Punkti 5.2 tulemuste põhjal arvutatud sidekanali edastuskiirus kasutajale:
+</p>
+<pre>
+Port 1:
+Aeg = 316 ms / 2 = 158 ms = 0,158 s
+65500 baiti / 0,158 = 414 556,96 bait/s = 404 KB/s
+
+Port 2:
+Aeg = 2692 ms / 2 = 1346 ms = 1,346 s
+65500 baiti / 1,346 = 48 662,70 bait/s = 47 KB/s
+
+Port 3:
+Aeg = 14 ms / 2 = 7 ms = 0,007 s
+65500 baiti / 0,007 = 9 357 142,85 bait/s = 9 137 KB/s
+</pre>
+
+<p>Kui palju tuleks kokku pakkida punktis 1 arvutatud pakkimata videosid,
+et sidekanal ei mõjutaks edastuse kvaliteeti?</p>
+<pre>
+Port 1:
+HD: 604 661 760 bit/s / 8 / 414 556,96 = 182 korda
+VGA: 110 592 000 bit/s / 8 / 414 556,96 = 33 korda
+CIF: 36 495 360 bit/s / 8 / 414 556,96 = 11 korda
+QCIF: 9 123 840 bit/s / 8 / 414 556,96 = 2 korda
+
+Port 2:
+HD: 604 661 760 bit/s / 8 / 48 662,70 = 1553 korda
+VGA: 110 592 000 bit/s / 8 / 48 662,70 = 284 korda
+CIF: 36 495 360 bit/s / 8 / 48 662,70 = 93 korda
+QCIF: 9 123 840 bit/s / 8 / 48 662,70 = 23 korda
+
+Port 3:
+HD: 604 661 760 bit/s / 8 / 9 357 142,85 = 8 korda
+VGA: 110 592 000 bit/s / 8 / 9 357 142,85 = 1,5 korda
+CIF: 36 495 360 bit/s / 8 / 9 357 142,85 = kokkupakkimine ei ole vajalik
+QCIF: 9 123 840 bit/s / 8 / 9 357 142,85 = kokkupakkimine ei ole vajalik
+</pre>
+<p>
 
 </p><h2>Kokkuvõte ja järeldused</h2>
 
 <p>
-KIRJUTA KOKKUVÕTE JA JÄRELDUSED SIIA!
-</p><p>
+Labori 2 käigus oli võimalik tutvuda digitaalise heli- ja videovoo edastusega
+piirangutega arvutivõrgus kasutades IP-telefone. Labori punktis 1 toimus
+veebikaameraga salvestatud piltide resolutsiooni hindamine. Jõudsime
+ootuspärasele järeldusele, et kõrgem resolutsioon tagab parema kvaliteediga
+pildi. Labori punktides 3 ja 4 eksperimenteerisime videokõnedega ning
+erinevate koodekitega. Labori punktis 5 mõõtsime võrkude viiteaega ja
+läbilaskevõimet. Lõpetuseks tegime katseid audio- ja videokõnedega läbi
+erinevate piirangutega võrkude. Kokkuvõtvalt võib järeldada, et võrgu
+läbilaskevõimel ja edastatavale sisule esitatavatel kvaliteedinõuetel
+on suur roll lõpptulemuse üle.
 
 
 
-</p></body></html>
+</body></html>
